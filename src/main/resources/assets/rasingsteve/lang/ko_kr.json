@@ -1,5 +1,9 @@
 {
-  "item.rasingsteve.sapphire":"사파이어",
+  "item.rasingsteve.bronze_coin": "동 동전",
+  "item.rasingsteve.silver_coin": "은 동전",
+  "item.rasingsteve.gold_coin": "금 동전",
+  "item.rasingsteve.diamond_coin": "다이아 동전",
 
-  "creativetab.kt_tab": "내 탭"
+
+  "creativetab.coin_tab": "동전 탭"
 }

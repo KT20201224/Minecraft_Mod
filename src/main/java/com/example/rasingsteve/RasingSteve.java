@@ -46,7 +46,11 @@ public class RasingSteve
 
     private void addCreative(BuildCreativeModeTabContentsEvent event){
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(Moditems.SAPPHIRE);
+            event.accept(Moditems.BRONZECOIN);
+            event.accept(Moditems.SILVERCOIN);
+            event.accept(Moditems.GOLDCOIN);
+            event.accept(Moditems.DIAMONDCOIN);
+
         }
     }
     @SubscribeEvent

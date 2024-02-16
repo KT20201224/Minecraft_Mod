@@ -1,6 +1,6 @@
 {
   "parent" : "item/generated",
   "textures" : {
-    "layer0" : "rasingsteve:item/sapphire"
+    "layer0" : "rasingsteve:item/gold_coin"
   }
 }

@@ -1,5 +1,8 @@
 {
-  "item.rasingsteve.sapphire": "Sapphire",
+  "item.rasingsteve.bronze_coin": "bronze coin",
+  "item.rasingsteve.silver_coin": "silver coin",
+  "item.rasingsteve.gold_coin": "gold coin",
+  "item.rasingsteve.diamond_coin": "diamond coin",
 
-  "creativetab.kt_tab": "My Tab"
+  "creativetab.coin_tab": "Coin Tab"
 }

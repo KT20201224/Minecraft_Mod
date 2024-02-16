@@ -13,11 +13,14 @@ public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, RasingSteve.MODID);
 
-    public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("kt_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(Moditems.SAPPHIRE.get()))
-                    .title(Component.translatable("creativetab.kt_tab"))
+    public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("coin_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(Moditems.GOLDCOIN.get()))
+                    .title(Component.translatable("creativetab.coin_tab"))
                     .displayItems((pParameters, pOutput) ->{
-                        pOutput.accept(Moditems.SAPPHIRE.get());
+                        pOutput.accept(Moditems.BRONZECOIN.get());
+                        pOutput.accept(Moditems.SILVERCOIN.get());
+                        pOutput.accept(Moditems.GOLDCOIN.get());
+                        pOutput.accept(Moditems.DIAMONDCOIN.get());
                     })
                     .build());
 
