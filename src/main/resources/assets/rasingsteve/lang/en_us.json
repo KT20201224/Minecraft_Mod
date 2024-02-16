@@ -1,8 +1,14 @@
 {
+  "comment": "Items",
   "item.rasingsteve.bronze_coin": "bronze coin",
   "item.rasingsteve.silver_coin": "silver coin",
   "item.rasingsteve.gold_coin": "gold coin",
   "item.rasingsteve.diamond_coin": "diamond coin",
 
-  "creativetab.coin_tab": "Coin Tab"
+  "comment": "Blocks",
+  "block.rasingsteve.test_block": "Test Block",
+
+  "comment": "Tabs",
+  "creativetab.coin_tab": "Coin Tab",
+  "creativetab.block_tab": "Block Tab"
 }

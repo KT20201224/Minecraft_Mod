@@ -1,5 +1,6 @@
 package com.example.rasingsteve;
 
+import com.example.rasingsteve.block.ModBlocks;
 import com.example.rasingsteve.item.ModCreativeModTabs;
 import com.example.rasingsteve.item.Moditems;
 import com.mojang.logging.LogUtils;
@@ -30,6 +31,9 @@ public class RasingSteve
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         Moditems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
+        // 사용자 설정 탭
         ModCreativeModTabs.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
