@@ -48,12 +48,13 @@ public class RasingSteve
 
     }
 
+    // 기존 탭에 넣고 싶을땐 다음과 같이 사용
     private void addCreative(BuildCreativeModeTabContentsEvent event){
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(Moditems.BRONZECOIN);
-            event.accept(Moditems.SILVERCOIN);
-            event.accept(Moditems.GOLDCOIN);
-            event.accept(Moditems.DIAMONDCOIN);
+            event.accept(Moditems.BRONZE_COIN);
+            event.accept(Moditems.SILVER_COIN);
+            event.accept(Moditems.GOLD_COIN);
+            event.accept(Moditems.DIAMOND_COIN);
 
         }
     }

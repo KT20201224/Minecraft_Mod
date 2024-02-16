@@ -20,6 +20,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> TEST_BLOCK = registerBlock("test_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> TEST_GOLD_ORE = registerBlock("test_gold_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BONE_BLOCK)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

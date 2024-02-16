@@ -4,11 +4,14 @@
   "item.rasingsteve.silver_coin": "은 동전",
   "item.rasingsteve.gold_coin": "금 동전",
   "item.rasingsteve.diamond_coin": "다이아 동전",
+  "item.rasingsteve.test_raw_gold": "테스트용 금",
 
   "comment": "블록",
   "block.rasingsteve.test_block": "테스트 블록",
+  "block.rasingsteve.test_gold_ore": "테스트용 금광맥",
 
   "comment": "탭",
+  "creativetab.test_tab": "테스트 탭",
   "creativetab.coin_tab": "동전 탭",
   "creativetab.block_tab": "블럭 탭"
 }

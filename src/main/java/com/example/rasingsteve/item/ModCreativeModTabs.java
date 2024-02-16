@@ -15,14 +15,13 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, RasingSteve.MODID);
 
     public static final RegistryObject<CreativeModeTab> Coin_TAB = CREATIVE_MODE_TABS.register("coin_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(Moditems.GOLDCOIN.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(Moditems.GOLD_COIN.get()))
                     .title(Component.translatable("creativetab.coin_tab"))
                     .displayItems((pParameters, pOutput) ->{
-                        pOutput.accept(Moditems.BRONZECOIN.get());
-                        pOutput.accept(Moditems.SILVERCOIN.get());
-                        pOutput.accept(Moditems.GOLDCOIN.get());
-                        pOutput.accept(Moditems.DIAMONDCOIN.get());
-
+                        pOutput.accept(Moditems.BRONZE_COIN.get());
+                        pOutput.accept(Moditems.SILVER_COIN.get());
+                        pOutput.accept(Moditems.GOLD_COIN.get());
+                        pOutput.accept(Moditems.DIAMOND_COIN.get());
                     })
                     .build());
 
@@ -30,8 +29,17 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.TEST_BLOCK.get()))
                     .title(Component.translatable("creativetab.block_tab"))
                     .displayItems((pParameters, pOutput) ->{
-
                         pOutput.accept(ModBlocks.TEST_BLOCK.get());
+                        pOutput.accept(ModBlocks.TEST_GOLD_ORE.get());
+                    })
+                    .build());
+
+    public static final RegistryObject<CreativeModeTab> Test_Tab = CREATIVE_MODE_TABS.register("test_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.TEST_BLOCK.get()))
+                    .title(Component.translatable("creativetab.test_tab"))
+                    .displayItems((pParameters, pOutput) ->{
+                        pOutput.accept(ModBlocks.TEST_GOLD_ORE.get());
+                        pOutput.accept(Moditems.TEST_RAW_GOLD.get());
                     })
                     .build());
 

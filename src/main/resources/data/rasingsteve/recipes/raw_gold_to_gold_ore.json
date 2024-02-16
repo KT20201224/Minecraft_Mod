@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "rasingsteve:test_raw_gold"
+    }
+  },
+  "result": {
+    "item": "rasingsteve:test_gold_ore"
+  }
+}
