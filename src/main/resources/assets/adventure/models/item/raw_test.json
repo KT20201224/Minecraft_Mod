@@ -1,6 +1,6 @@
 {
   "parent" : "item/generated",
   "textures" : {
-    "layer0" : "rasingsteve:item/bronze_coin"
+    "layer0" : "adventure:item/raw_test"
   }
 }
